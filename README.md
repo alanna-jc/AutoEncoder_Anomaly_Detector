@@ -1,4 +1,4 @@
-## Beta-Variational AutoEncoder
+## Beta-Variational Autoencoder
 
 beta variational auto encoder 
 
