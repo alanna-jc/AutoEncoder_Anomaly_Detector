@@ -1,3 +1,3 @@
-# VAE_Anomaly_Detector
+## Denoising Autoencoder
 
-Project for Anomaly Detection that uses a variational auto encoder
+Adds noise to autoencoder input. Uses SSIM loss on original (non noisy) images
