@@ -1,3 +1,5 @@
-# VAE_Anomaly_Detector
+## Beta-Variational AutoEncoder
 
-Project for Anomaly Detection that uses a variational auto encoder
+beta variational auto encoder 
+
+Loss = SSIM + Beta(KL Divergence)
