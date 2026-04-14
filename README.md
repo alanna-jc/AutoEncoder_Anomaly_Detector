@@ -1,3 +1,3 @@
-# VAE_Anomaly_Detector
+## Basic Autoencoder
 
-Project for Anomaly Detection that uses a variational auto encoder
+Uses SSIM loss
