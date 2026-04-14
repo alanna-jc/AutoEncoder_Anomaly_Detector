@@ -1,4 +1,4 @@
-# Library of AutoEncoder designs for Anomaly Detection
+# Library of Autoencoder designs for Anomaly Detection
 
 Each branch is its own design. Ran and designed on Google Colab
 
