@@ -1,5 +1,5 @@
-## Beta-Variational Autoencoder
+## Denoising Beta-Variational Autoencoder
 
-beta variational auto encoder 
+Denoising beta variational auto encoder 
 
 Loss = SSIM + Beta(KL Divergence)
