@@ -1,6 +1,6 @@
 # Convolutional Autoencoder Designs for Anomaly Detection
 
-Each branch of this repo contains an implementation of a one-class anomoly detector using different autoencoder designs.
+Each branch of this repo contains an implementation of a one-class anomoly detector using different autoencoder designs. Made and tested on Google Colab.
 
 ### Branch Directory
 * **Basic_AE_MSE:** Basic autoencoder with MSE loss
