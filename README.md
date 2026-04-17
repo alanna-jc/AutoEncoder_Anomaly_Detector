@@ -6,6 +6,7 @@ Each branch of this repo contains an implementation of a one-class anomoly detec
 * **Basic_AE_MSE:** Basic autoencoder with MSE loss
 * **Basic_AE_SSIM:** Basic autoencoder with SSIM loss
 * **Beta-VAE:** Variational autoencoder with Beta parameter
+* **Denoising_BVAE:** Denoising Beta Variational autoencoder 
 * **DAE:** Denoising autoencoder
 * **VAE:** Variational autoencoder
 
