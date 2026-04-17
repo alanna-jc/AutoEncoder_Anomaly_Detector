@@ -25,9 +25,9 @@ Each of the following datasets used contained 15-20 images, presenting unique ch
 
 **Roofing Screws:**
 
-<img src="Assets/nominal_screw1.png" width="110" alt="Nominal Roofing Screw 1"> <img src="Assets/nominal_screw2.png" width="110" alt="Nominal Roofing Screw 2"><br>*Examples of nominal images* 
-
-<img src="Assets/anomalous_screw1.png" width="110" alt="Anomalous Roofing Screw 1"> <img src="Assets/anomalous_screw2.png" width="110" alt="Anomalous Roofing Screw 2"><br>*Examples of anomalous images*
+| <img src="Assets/nominal_screw1.png" width="110" alt="Nominal Roofing Screw 1"> <img src="Assets/nominal_screw2.png" width="110" alt="Nominal Roofing Screw 2"> | <img src="Assets/anomalous_screw1.png" width="110" alt="Anomalous Roofing Screw 1"> <img src="Assets/anomalous_screw2.png" width="110" alt="Anomalous Roofing Screw 2"> |
+| :---: | :--: |
+| *Examples of nominal images* | *Examples of anomalous images* |
 
 **Pasta:**
 
@@ -69,7 +69,7 @@ Each of the following datasets used contained 15-20 images, presenting unique ch
 * However, MSE outperformed on the capsule dataset while SSIM outperformed significantly on the pasta. Highlighting the inductive bias of these two loss functions. 
 
 ### Autoencoder Comparison Findings
-<img src="Assets/recon_screw_dae.png" width="330" alt="DAE recon screw"> <img src="Assets/recon_pasta_dae.png" width="330" alt="DAE recon pasta"> <img src="Assets/recon_capsule_dae.png" width="330" alt="DAE recon capsule"><br>*Reconstruction from DAE* 
+<img src="Assets/recon_screw_dae.png" width="330" alt="DAE recon screw"> <img src="Assets/recon_pasta_dae.png" width="330" alt="DAE recon pasta"> <img src="Assets/recon_capsule_dae.png" width="330" alt="DAE recon capsule"><br>*Reconstructions from DAE* 
 
 <img src="Assets/recon_screw_bvae.png" width="330" alt="B-VAE recon screw"> <img src="Assets/recon_pasta_bvae.png" width="330" alt="B-VAE recon pasta"> <img src="Assets/recon_capsule_bvae.png" width="330" alt="B-VAE recon capsule"><br>*Reconstructions from Beta-VAE*
 
@@ -77,7 +77,7 @@ Pictured above are the reconstructions from the two best performing models. Ulti
 
 ## Areas to Improve
 
-Baseline AUROC performance remained close to the random threshold of 0.5. Since our tested improvements only produced deviations of approximately ±0.2, the findings emphasize the preliminary stage of this project.
+Baseline AUROC performance remained close to the random threshold of 0.5. Since our tested improvements only produced deviations of approximately ±0.2, this emphasizes that our project only achieved preliminary results.
 
 If this project was continued, future work would include: 
 * Changing evaluation metric (exploring outside of AUROC)
