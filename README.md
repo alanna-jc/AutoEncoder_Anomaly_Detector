@@ -26,20 +26,20 @@ Each of the following datasets used contained 15-20 images, presenting unique ch
 **Roofing Screws:**
 
 | <img src="Assets/nominal_screw1.png" width="110" alt="Nominal Roofing Screw 1"> <img src="Assets/nominal_screw2.png" width="110" alt="Nominal Roofing Screw 2"> | <img src="Assets/anomalous_screw1.png" width="110" alt="Anomalous Roofing Screw 1"> <img src="Assets/anomalous_screw2.png" width="110" alt="Anomalous Roofing Screw 2"> |
-| :---: | :--: |
+| :---: | :---: |
 | *Examples of nominal images* | *Examples of anomalous images* |
 
 **Pasta:**
 
-<img src="Assets/nominal_pasta1.png" width="110" alt="Nominal Pasta 1"> <img src="Assets/nominal_pasta2.png" width="110" alt="Nominal Pasta 2"><br>*Examples nominal images* 
-
-<img src="Assets/anomalous_pasta1.png" width="110" alt="Anomalous Pasta 1"> <img src="Assets/anomalous_pasta2.png" width="110" alt="Anomalous Pasta 2"><br>*Examples of anomalous images*
+| <img src="Assets/nominal_pasta1.png" width="110" alt="Nominal Pasta 1"> <img src="Assets/nominal_pasta2.png" width="110" alt="Nominal Pasta 2"> | <img src="Assets/anomalous_pasta1.png" width="110" alt="Anomalous Pasta 1"> <img src="Assets/anomalous_pasta2.png" width="110" alt="Anomalous Pasta 2"> |
+| :---: | :---: |
+| *Examples of nominal images* | *Examples of anomalous images* |
 
 **Capsules:**
 
-<img src="Assets/nominal_capsule1.png" width="110" alt="Nominal Capsule 1"> <img src="Assets/nominal_capsule2.png" width="110" alt="Nominal Capsule 2"><br>*Examples nominal images* 
-
-<img src="Assets/anomalous_capsule1.png" width="110" alt="Anomalous Capsule 1"> <img src="Assets/anomalous_capsule2.png" width="110" alt="Anomalous Capsule 2"><br>*Examples of anomalous images*
+| <img src="Assets/nominal_capsule1.png" width="110" alt="Nominal Capsule 1"> <img src="Assets/nominal_capsule2.png" width="110" alt="Nominal Capsule 2"> | <img src="Assets/anomalous_capsule1.png" width="110" alt="Anomalous Capsule 1"> <img src="Assets/anomalous_capsule2.png" width="110" alt="Anomalous Capsule 2"> |
+| :---: | :---: |
+| *Examples of nominal images* | *Examples of anomalous images* |
 
 ## Testing Process
 
