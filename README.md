@@ -9,9 +9,9 @@ Each branch of this repo contains an implementation of a one-class anomoly detec
 * **DAE:** Denoising autoencoder
 * **VAE:** Variational autoencoder
 
-Each autoencoder uses the same CNN structure. The encoder side is shown below:
+Each autoencoder uses the same CNN structure. The CNN encoder is shown below:
 
-[insert picture]
+<img src="Assets/encoder_cnn.png" width="420" alt="Encoder CNN">
 
 The 'main' branch of this repo contains the final report on the findings. 
 
@@ -24,35 +24,35 @@ Explore how different designs perform on varied, sparse datasets to ultimately f
 Each of the following datasets used contained 15-20 images, presenting unique challenges for training.
 
 **Roofing Screws:**
-<img src="assets/nominal_screw1.png" width="110" alt="Nominal Roofing Screw 1">
-<img src="assets/nominal_screw2.png" width="110" alt="Nominal Roofing Screw 2">
+<img src="Assets/nominal_screw1.png" width="110" alt="Nominal Roofing Screw 1">
+<img src="Assets/nominal_screw2.png" width="110" alt="Nominal Roofing Screw 2">
 
 *Caption: Example of a nominal image* 
 
-<img src="assets/anomalous_screw1.png" width="110" alt="Anomalous Roofing Screw 1">
-<img src="assets/anomalous_screw2.png" width="110" alt="Anomalous Roofing Screw 2">
+<img src="Assets/anomalous_screw1.png" width="110" alt="Anomalous Roofing Screw 1">
+<img src="Assets/anomalous_screw2.png" width="110" alt="Anomalous Roofing Screw 2">
 
 *Caption: Example of an anomalous image*
 
 **Pasta:**
-<img src="assets/nominal_pasta1.png" width="110" alt="Nominal Pasta 1">
-<img src="assets/nominal_pasta2.png" width="110" alt="Nominal Pasta 2">
+<img src="Assets/nominal_pasta1.png" width="110" alt="Nominal Pasta 1">
+<img src="Assets/nominal_pasta2.png" width="110" alt="Nominal Pasta 2">
 
 *Caption: Example of a nominal image* 
 
-<img src="assets/anomalous_pasta1.png" width="110" alt="Anomalous Pasta 1">
-<img src="assets/anomalous_pasta2.png" width="110" alt="Anomalous Pasta 2">
+<img src="Assets/anomalous_pasta1.png" width="110" alt="Anomalous Pasta 1">
+<img src="Assets/anomalous_pasta2.png" width="110" alt="Anomalous Pasta 2">
 
 *Caption: Example of an anomalous image*
 
 **Capsules:**
-<img src="assets/nominal_capsule1.png" width="110" alt="Nominal Capsule 1">
-<img src="assets/nominal_capsule2.png" width="110" alt="Nominal Capsule 2">
+<img src="Assets/nominal_capsule1.png" width="110" alt="Nominal Capsule 1">
+<img src="Assets/nominal_capsule2.png" width="110" alt="Nominal Capsule 2">
 
 *Caption: Example of a nominal image* 
 
-<img src="assets/anomalous_capsule1.png" width="110" alt="Anomalous Capsule 1">
-<img src="assets/anomalous_capsule2.png" width="110" alt="Anomalous Capsule 2">
+<img src="Assets/anomalous_capsule1.png" width="110" alt="Anomalous Capsule 1">
+<img src="Assets/anomalous_capsule2.png" width="110" alt="Anomalous Capsule 2">
 
 *Caption: Example of an anomalous image*
 
@@ -84,15 +84,15 @@ Each of the following datasets used contained 15-20 images, presenting unique ch
 * However, MSE outperformed on the capsule dataset while SSIM outperformed significantly on the pasta. Highlighting the inductive bias of these two loss functions. 
 
 ### Autoencoder Comparison Findings
-<img src="assets/recon_screw_dae.png" width="330" alt="DAE recon screw">
-<img src="assets/recon_pasta_dae.png" width="330" alt="DAE recon pasta">
-<img src="assets/recon_capsule_dae.png" width="330" alt="DAE recon capsule">
+<img src="Assets/recon_screw_dae.png" width="330" alt="DAE recon screw">
+<img src="Assets/recon_pasta_dae.png" width="330" alt="DAE recon pasta">
+<img src="Assets/recon_capsule_dae.png" width="330" alt="DAE recon capsule">
 
 *Caption: Reconstruction from DAE* 
 
-<img src="assets/recon_screw_bvae.png" width="330" alt="B-VAE recon screw">
-<img src="assets/recon_pasta_bvae.png" width="330" alt="B-VAE recon pasta">
-<img src="assets/recon_capsule_bvae.png" width="330" alt="B-VAE recon capsule">
+<img src="Assets/recon_screw_bvae.png" width="330" alt="B-VAE recon screw">
+<img src="Assets/recon_pasta_bvae.png" width="330" alt="B-VAE recon pasta">
+<img src="Assets/recon_capsule_bvae.png" width="330" alt="B-VAE recon capsule">
 
 *Caption: Reconstructions from Beta-VAE*
 
