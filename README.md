@@ -24,37 +24,22 @@ Explore how different designs perform on varied, sparse datasets to ultimately f
 Each of the following datasets used contained 15-20 images, presenting unique challenges for training.
 
 **Roofing Screws:**
-<img src="Assets/nominal_screw1.png" width="110" alt="Nominal Roofing Screw 1">
-<img src="Assets/nominal_screw2.png" width="110" alt="Nominal Roofing Screw 2">
 
-*Caption: Example of a nominal image* 
+<img src="Assets/nominal_screw1.png" width="110" alt="Nominal Roofing Screw 1"> <img src="Assets/nominal_screw2.png" width="110" alt="Nominal Roofing Screw 2"><br>*Examples of nominal images* 
 
-<img src="Assets/anomalous_screw1.png" width="110" alt="Anomalous Roofing Screw 1">
-<img src="Assets/anomalous_screw2.png" width="110" alt="Anomalous Roofing Screw 2">
-
-*Caption: Example of an anomalous image*
+<img src="Assets/anomalous_screw1.png" width="110" alt="Anomalous Roofing Screw 1"> <img src="Assets/anomalous_screw2.png" width="110" alt="Anomalous Roofing Screw 2"><br>*Examples of anomalous images*
 
 **Pasta:**
-<img src="Assets/nominal_pasta1.png" width="110" alt="Nominal Pasta 1">
-<img src="Assets/nominal_pasta2.png" width="110" alt="Nominal Pasta 2">
 
-*Caption: Example of a nominal image* 
+<img src="Assets/nominal_pasta1.png" width="110" alt="Nominal Pasta 1"> <img src="Assets/nominal_pasta2.png" width="110" alt="Nominal Pasta 2"><br>*Examples nominal images* 
 
-<img src="Assets/anomalous_pasta1.png" width="110" alt="Anomalous Pasta 1">
-<img src="Assets/anomalous_pasta2.png" width="110" alt="Anomalous Pasta 2">
-
-*Caption: Example of an anomalous image*
+<img src="Assets/anomalous_pasta1.png" width="110" alt="Anomalous Pasta 1"> <img src="Assets/anomalous_pasta2.png" width="110" alt="Anomalous Pasta 2"><br>*Examples of anomalous images*
 
 **Capsules:**
-<img src="Assets/nominal_capsule1.png" width="110" alt="Nominal Capsule 1">
-<img src="Assets/nominal_capsule2.png" width="110" alt="Nominal Capsule 2">
 
-*Caption: Example of a nominal image* 
+<img src="Assets/nominal_capsule1.png" width="110" alt="Nominal Capsule 1"> <img src="Assets/nominal_capsule2.png" width="110" alt="Nominal Capsule 2"><br>*Examples nominal images* 
 
-<img src="Assets/anomalous_capsule1.png" width="110" alt="Anomalous Capsule 1">
-<img src="Assets/anomalous_capsule2.png" width="110" alt="Anomalous Capsule 2">
-
-*Caption: Example of an anomalous image*
+<img src="Assets/anomalous_capsule1.png" width="110" alt="Anomalous Capsule 1"> <img src="Assets/anomalous_capsule2.png" width="110" alt="Anomalous Capsule 2"><br>*Examples of anomalous images*
 
 ## Testing Process
 
@@ -70,7 +55,7 @@ Each of the following datasets used contained 15-20 images, presenting unique ch
 3. **Parameter Tuning:** Tested different parameters for the base models and any autoencoder specific parameters (ex: beta values, noise factor)
 4. **Autoencoder Comparison:** Compared best results of each optimized autoencoder against the others.
 
-## Results and Findings
+## Findings
 
 *Please see the 'Project Report' PDF in the main branch for a more comprehensive breakdown of the results.*
 
@@ -84,17 +69,9 @@ Each of the following datasets used contained 15-20 images, presenting unique ch
 * However, MSE outperformed on the capsule dataset while SSIM outperformed significantly on the pasta. Highlighting the inductive bias of these two loss functions. 
 
 ### Autoencoder Comparison Findings
-<img src="Assets/recon_screw_dae.png" width="330" alt="DAE recon screw">
-<img src="Assets/recon_pasta_dae.png" width="330" alt="DAE recon pasta">
-<img src="Assets/recon_capsule_dae.png" width="330" alt="DAE recon capsule">
+<img src="Assets/recon_screw_dae.png" width="330" alt="DAE recon screw"> <img src="Assets/recon_pasta_dae.png" width="330" alt="DAE recon pasta"> <img src="Assets/recon_capsule_dae.png" width="330" alt="DAE recon capsule"><br>*Reconstruction from DAE* 
 
-*Caption: Reconstruction from DAE* 
-
-<img src="Assets/recon_screw_bvae.png" width="330" alt="B-VAE recon screw">
-<img src="Assets/recon_pasta_bvae.png" width="330" alt="B-VAE recon pasta">
-<img src="Assets/recon_capsule_bvae.png" width="330" alt="B-VAE recon capsule">
-
-*Caption: Reconstructions from Beta-VAE*
+<img src="Assets/recon_screw_bvae.png" width="330" alt="B-VAE recon screw"> <img src="Assets/recon_pasta_bvae.png" width="330" alt="B-VAE recon pasta"> <img src="Assets/recon_capsule_bvae.png" width="330" alt="B-VAE recon capsule"><br>*Reconstructions from Beta-VAE*
 
 Pictured above are the reconstructions from the two best performing models. Ultimately the Beta-VAE performed generally the best over the other designs.
 
