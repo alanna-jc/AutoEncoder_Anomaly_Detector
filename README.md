@@ -86,6 +86,7 @@ If this project was continued, future work would include:
 * Conducting a more comprehensive hyperparamter check (using hyperparam tuning aids)
 * Normalizing the images before passing them into the model
 * Attempting different forms of weight initialization
+* Analyzing visual results more (error detection heat maps)
 
 ## Conclusion
 
