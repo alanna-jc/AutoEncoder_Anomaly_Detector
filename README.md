@@ -80,7 +80,7 @@ Pictured above are the reconstructions from the two best performing models. Ulti
 
 Baseline AUROC performance remained close to the random threshold of 0.5. Since our tested improvements only produced deviations of approximately ±0.2, this emphasizes that our project only achieved preliminary results.
 
-If this project was continued, future work would include: 
+**If this project was continued, future work would include:** 
 * Changing evaluation metric (exploring outside of AUROC)
 * Experimenting and improving more on the CNN design
 * Conducting a more comprehensive hyperparamter check (using hyperparam tuning aids)
