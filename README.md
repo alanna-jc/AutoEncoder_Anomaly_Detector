@@ -1,3 +1,3 @@
 ## Basic Autoencoder
 
-Uses SSIM loss
+Classic autoencoder design using Structural Similarity Index Measure (SSIM) reconstruction loss.
