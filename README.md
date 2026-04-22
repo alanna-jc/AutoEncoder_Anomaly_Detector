@@ -14,7 +14,7 @@ Each autoencoder uses the same CNN structure. The CNN encoder is shown below:
 
 <img src="Assets/encoder_cnn.png" width="420" alt="Encoder CNN">
 
-The 'main' branch of this repo contains the final report on the findings. 
+The 'main' branch of this repo contains the final report on the findings and slides of the project presentation. 
 
 ## Objective
 
@@ -86,7 +86,7 @@ Baseline AUROC performance remained close to the random threshold of 0.5. Since 
 * Conducting a more comprehensive hyperparamter check (using hyperparam tuning aids)
 * Normalizing the images before passing them into the model
 * Attempting different forms of weight initialization
-* Analyzing visual results more (error detection heat maps)
+* Analyzing visual results more (error detection heat maps) and make them their own files for portability
 
 ## Conclusion
 
