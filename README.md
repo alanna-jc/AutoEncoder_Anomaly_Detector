@@ -1,5 +1,5 @@
 ## Beta-Variational Autoencoder
 
-beta variational auto encoder 
+Variational Autoencoder design that tames the Kullbach Leibler divergence with the addition of a Beta hyperparam
 
-Loss = SSIM + Beta(KL Divergence)
+Loss = SSIM + Beta * (KL Divergence)
