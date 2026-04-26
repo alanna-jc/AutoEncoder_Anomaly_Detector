@@ -2,6 +2,8 @@
 
 Each branch of this repo contains an implementation of a one-class anomoly detector using different autoencoder designs. Made and tested on Google Colab.
 
+**The 'main' branch of this repo contains the final report on the findings and slides of the project presentation.** 
+
 ### Branch Directory
 * **Basic_AE_MSE:** Basic autoencoder with MSE loss
 * **Basic_AE_SSIM:** Basic autoencoder with SSIM loss
@@ -13,8 +15,6 @@ Each branch of this repo contains an implementation of a one-class anomoly detec
 Each autoencoder uses the same CNN structure. The CNN encoder is shown below:
 
 <img src="Assets/encoder_cnn.png" width="420" alt="Encoder CNN">
-
-The 'main' branch of this repo contains the final report on the findings and slides of the project presentation. 
 
 ## Objective
 
