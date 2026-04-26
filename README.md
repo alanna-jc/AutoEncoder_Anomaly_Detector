@@ -1,3 +1,5 @@
 ## Denoising Autoencoder
 
-Adds noise to autoencoder input. Uses SSIM loss on original (non noisy) images
+Basic Autoencoder with added Gaussian noise to input images. Uses SSIM loss on original (non noisy) images
+
+<img src="Assets/dae.png" width="630" alt="DAE example"> <br> ***Example of Denoising***
